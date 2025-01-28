@@ -38,5 +38,3 @@ Los Objetivos de Desarrollo Sustentable (ODS) de las Naciones Unidas ofrecen una
 14. Uso de módulos de terceros en Python (random, math, time)
 15. Definición de funciones propias
 16. Estructuras de datos básicas, matrices, tensores
-
-Esperamos que este curso inspire y equipe a los estudiantes con las habilidades necesarias para hacer una diferencia positiva en el mundo.
