@@ -1,0 +1,50 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Ejercicio: Adivina el número secreto\n",
+        "\n",
+        "Crea un juego interactivo donde el programa realice lo siguiente:\n",
+        "\n",
+        "1. Genere un número aleatorio entre 1 y 20 usando la librería `random`.\n",
+        "2. Solicite al usuario que adivine el número secreto.\n",
+        "3. Luego de cada intento del usuario, el programa debe entregar una pista:\n",
+        "   - Si el número ingresado es **mayor** que el número secreto, muestra: `\"El número es menor\"`.\n",
+        "   - Si el número ingresado es **menor** que el número secreto, muestra: `\"El número es mayor\"`.\n",
+        "4. El ciclo debe repetirse **hasta que el usuario acierte** el número.\n",
+        "5. Una vez adivinado correctamente, muestra por pantalla:\n",
+        "   - Un mensaje de felicitación.\n",
+        "   - La **cantidad total de intentos** que fueron necesarios.\n",
+        "\n",
+        "> Sugerencia: Usa un ciclo `while` para repetir el intento, y una variable para contar los intentos.\n"
+      ],
+      "metadata": {
+        "id": "UPXwyzNRvoyD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "xg_GivTvKbgB"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
