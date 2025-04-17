@@ -1,0 +1,55 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "id": "28fc93aa",
+      "metadata": {
+        "id": "28fc93aa"
+      },
+      "source": [
+        "### Ejercicio: Conjetura de Collatz\n",
+        "\n",
+        "La **Conjetura de Collatz**, también conocida como la conjetura 3n + 1, describe una secuencia matemática con las siguientes reglas:\n",
+        "\n",
+        "1. Se comienza con un número entero positivo.\n",
+        "2. Si el número es **par**, se divide entre 2.\n",
+        "3. Si el número es **impar**, se multiplica por 3 y se le suma 1.\n",
+        "4. El nuevo número reemplaza al anterior y el proceso se repite.\n",
+        "5. El ciclo termina cuando el número llega a 1.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "#### Instrucciones:\n",
+        "\n",
+        "Crea un programa en Python que:\n",
+        "\n",
+        "- Solicite al usuario un número entero positivo.\n",
+        "- Aplique las reglas de la conjetura para generar la secuencia de números.\n",
+        "- Muestre por pantalla cada número de la secuencia, uno por línea.\n",
+        "- Al final, imprima la cantidad total de pasos necesarios para llegar al número 1.\n",
+        "\n",
+        "---\n",
+        "\n",
+        "#### Ejemplo de ejecución:\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "vw8-yivUPc_T"
+      },
+      "id": "vw8-yivUPc_T",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

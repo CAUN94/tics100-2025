@@ -1,0 +1,186 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "id": "28fc93aa",
+      "metadata": {
+        "id": "28fc93aa"
+      },
+      "source": [
+        "# Guía de Ejercicios con Ciclo `while`"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "252dfe73",
+      "metadata": {
+        "id": "252dfe73"
+      },
+      "source": [
+        "### Ejercicio 1: Suma Acumulativa\n",
+        "\n",
+        "Crea un programa que:\n",
+        "\n",
+        "- Pida al usuario ingresar números uno por uno.\n",
+        "- No debe sumar los números negativos.\n",
+        "- El ciclo termina cuando el usuario ingresa un número **0**.\n",
+        "- Al final, muestra la **suma acumulada** de los números positivos ingresados."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "2b507319",
+      "metadata": {
+        "id": "2b507319"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "id": "37de9197",
+      "metadata": {
+        "id": "37de9197"
+      },
+      "source": [
+        "### Ejercicio 2: Contador hasta 0\n",
+        "\n",
+        "Crea un programa que:\n",
+        "\n",
+        "- Pida al usuario un número positivo.\n",
+        "- Usando un ciclo `while`, cuente **desde ese número hasta 0** en orden descendente.\n",
+        "- Muestra cada número por pantalla."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "3dd961bb",
+      "metadata": {
+        "id": "3dd961bb"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "id": "4083f408",
+      "metadata": {
+        "id": "4083f408"
+      },
+      "source": [
+        "### Ejercicio 3: Clave Secreta\n",
+        "\n",
+        "Crea un programa que:\n",
+        "\n",
+        "- Pida al usuario que escriba una contraseña.\n",
+        "- La contraseña correcta es **Python123**.\n",
+        "- Mientras no la escriba correctamente, el programa sigue pidiéndola.\n",
+        "- Por cada error, muestra la cantidad de intentos incorrectos acumulados.\n",
+        "- Cuando acierta, muestra un mensaje de éxito."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "d0fea179",
+      "metadata": {
+        "id": "d0fea179"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "id": "f3f2ad58",
+      "metadata": {
+        "id": "f3f2ad58"
+      },
+      "source": [
+        "### Ejercicio 4: Multiplicación sin usar `*`\n",
+        "\n",
+        "Crea un programa que:\n",
+        "\n",
+        "- Pida al usuario ingresar dos números enteros.\n",
+        "- Calcule el producto de ambos usando **solo sumas repetidas** y un ciclo `while`.\n",
+        "- Muestra el resultado final por pantalla."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "47acd0e9",
+      "metadata": {
+        "id": "47acd0e9"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "id": "b9a1d25b",
+      "metadata": {
+        "id": "b9a1d25b"
+      },
+      "source": [
+        "### Ejercicio 5: Menú Interactivo\n",
+        "\n",
+        "Crea un programa que muestre un menú de opciones:\n",
+        "\n",
+        "1. Sumar\n",
+        "2. Restar\n",
+        "3. Salir\n",
+        "\n",
+        "- Según la opción elegida, pide dos números y muestra el resultado de la operación.\n",
+        "- Luego vuelve a mostrar el menú.\n",
+        "- Si elige “salir”, el programa termina."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "ff84c4ba",
+      "metadata": {
+        "id": "ff84c4ba"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "id": "b28c9f6f",
+      "metadata": {
+        "id": "b28c9f6f"
+      },
+      "source": [
+        "### Ejercicio 6: Simulador de Saldo\n",
+        "\n",
+        "Crea un programa que:\n",
+        "\n",
+        "- Comienza con un **saldo de $10.000**.\n",
+        "- El usuario puede ingresar montos para retirar.\n",
+        "- Si el usuario escribe `salir`, el programa termina.\n",
+        "- Si el retiro excede el saldo, debe mostrar un mensaje de error.\n",
+        "- Muestra el saldo restante después de cada retiro."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "id": "9491d6a7",
+      "metadata": {
+        "id": "9491d6a7"
+      },
+      "outputs": [],
+      "source": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
