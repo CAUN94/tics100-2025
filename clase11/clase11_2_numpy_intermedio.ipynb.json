@@ -1,0 +1,278 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "id": "ce54387f",
+      "metadata": {
+        "id": "ce54387f"
+      },
+      "source": [
+        "### Sumar todos los valores de una fila elegida por el usuario\n",
+        "**Enunciado:**\n",
+        "Crea una matriz de 4x4 con valores aleatorios del 1 al 20. Luego pide al usuario el número de una fila (entre 0 y 3) y muestra la suma de todos los valores en esa fila."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "f2cb6a05",
+      "metadata": {
+        "id": "f2cb6a05"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Matriz:\n",
+        "[[ 1  5  6  8]\n",
+        " [ 2 14  7 10]\n",
+        " [12 11  3  9]\n",
+        " [ 4  2  6 15]]\n",
+        "Ingrese el número de fila (0-3): 1\n",
+        "Suma de la fila 1: 33\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "2bd946b8",
+      "metadata": {
+        "id": "2bd946b8"
+      },
+      "source": [
+        "### Sumar todos los valores de una columna elegida por el usuario\n",
+        "**Enunciado:**\n",
+        "Usa la misma matriz anterior. Esta vez, pide al usuario el número de una columna (entre 0 y 3) y muestra la suma de los valores de esa columna."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "3931d502",
+      "metadata": {
+        "id": "3931d502"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "\n",
+        "```\n",
+        "Matriz:\n",
+        "[[ 1  5  6  8]\n",
+        " [ 2 14  7 10]\n",
+        " [12 11  3  9]\n",
+        " [ 4  2  6 15]]\n",
+        "Ingrese el número de columna (0-3): 2\n",
+        "Suma de la columna 2: 22\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "b63d556a",
+      "metadata": {
+        "id": "b63d556a"
+      },
+      "source": [
+        "### Crear una matriz de 4x4 con valores aleatorios del 1 al 16\n",
+        "**Enunciado:**\n",
+        "Genera una matriz 4x4 con valores aleatorios entre 1 y 16 y muéstrala por pantalla."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "6a95b931",
+      "metadata": {
+        "id": "6a95b931"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Matriz generada:\n",
+        "[[ 5  2 13  6]\n",
+        " [14 12  1  3]\n",
+        " [ 4 11  8  7]\n",
+        " [10 15  9 16]]\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "efec513f",
+      "metadata": {
+        "id": "efec513f"
+      },
+      "source": [
+        "### Transponer una matriz 3x3 usando doble for\n",
+        "**Enunciado:**\n",
+        "Crea una matriz de 3x3 con valores aleatorios del 1 al 9 y transpónela utilizando dos ciclos for."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "6ee82c5d",
+      "metadata": {
+        "id": "6ee82c5d"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Matriz original:\n",
+        "[[1 3 2]\n",
+        " [9 8 7]\n",
+        " [5 4 6]]\n",
+        "Matriz transpuesta:\n",
+        "[[1 9 5]\n",
+        " [3 8 4]\n",
+        " [2 7 6]]\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "4c4f9e2c",
+      "metadata": {
+        "id": "4c4f9e2c"
+      },
+      "source": [
+        "### Seleccionar un intervalo de columnas dentro de una fila\n",
+        "**Enunciado:**\n",
+        "Crea una matriz 6x6 con valores del 1 al 36. El usuario debe ingresar un número de fila y dos índices de columna (`inicio`, `fin`). Muestra los elementos en ese intervalo."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "50e34fe5",
+      "metadata": {
+        "id": "50e34fe5"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Ingrese número de fila: 2\n",
+        "Ingrese índice de columna inicio: 1\n",
+        "Ingrese índice de columna fin: 4\n",
+        "Valores seleccionados: [11 12 13 14]\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "748b3c96",
+      "metadata": {
+        "id": "748b3c96"
+      },
+      "source": [
+        "### Seleccionar un intervalo de filas dentro de una columna\n",
+        "**Enunciado:**\n",
+        "Crea una matriz 6x6 con valores del 1 al 36. El usuario debe ingresar un número de columna y dos índices de fila (`inicio`, `fin`). Muestra los elementos en ese intervalo vertical."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "133bf8b1",
+      "metadata": {
+        "id": "133bf8b1"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Ingrese número de columna: 3\n",
+        "Ingrese índice de fila inicio: 2\n",
+        "Ingrese índice de fila fin: 5\n",
+        "Valores seleccionados: [15 21 27 33]\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "c4b67fe5",
+      "metadata": {
+        "id": "c4b67fe5"
+      },
+      "source": [
+        "### Mostrar un subbloque de matriz entre dos filas y dos columnas\n",
+        "**Enunciado:**\n",
+        "Crea una matriz 6x6 con valores del 1 al 36. El usuario debe ingresar dos índices de fila (`inicio`, `fin`) y dos de columna (`inicio`, `fin`). Muestra ese fragmento."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "53aa476c",
+      "metadata": {
+        "id": "53aa476c"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "Ingrese fila inicio: 1\n",
+        "Ingrese fila fin: 3\n",
+        "Ingrese columna inicio: 2\n",
+        "Ingrese columna fin: 4\n",
+        "Submatriz:\n",
+        "[[ 9 10 11]\n",
+        " [15 16 17]\n",
+        " [21 22 23]]\n",
+        "```"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "84f6f034",
+      "metadata": {
+        "id": "84f6f034"
+      },
+      "source": [
+        "### Llenar una matriz 8x8 de ceros, modificando fila o columna hasta llenarla\n",
+        "**Enunciado:**\n",
+        "Crea una matriz 8x8 de ceros. Luego, en un bucle, pide al usuario si quiere modificar una fila o columna, el índice a modificar y el valor a colocar. Continúa hasta que no quede ningún cero en la matriz."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "id": "932a1e3c",
+      "metadata": {
+        "id": "932a1e3c"
+      },
+      "source": [
+        "**Visualización esperada:**\n",
+        "```\n",
+        "¿Modificar fila o columna? (fila/columna): fila\n",
+        "Índice: 0\n",
+        "Valor: 1\n",
+        "[[1 1 1 1 1 1 1 1]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]\n",
+        " [0 0 0 0 0 0 0 0]]\n",
+        "¿Modificar fila o columna? (fila/columna): columna\n",
+        "Índice: 3\n",
+        "Valor: 5\n",
+        "[[1 1 1 5 1 1 1 1]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]\n",
+        " [0 0 0 5 0 0 0 0]]\n",
+        "...\n",
+        "¡Matriz completa!\n",
+        "```"
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
