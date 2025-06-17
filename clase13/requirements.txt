@@ -1,0 +1,9 @@
+numpy
+matplotlib
+opencv-python
+folium
+plotly
+ipywidgets
+networkx
+scipy
+pillow
